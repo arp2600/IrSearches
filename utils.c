@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "read_data.h"
+#include "utils.h"
 
 struct list_node
 {
@@ -83,3 +83,18 @@ size_t read_data (int **data)
 
     return size;
 } 
+
+void println_int (int v)
+{
+    printf("%d\n", v);
+}
+
+void println_size_t (size_t v)
+{
+    printf("%zd\n", v);
+}
+
+void println()
+{
+    printf("\n");
+}

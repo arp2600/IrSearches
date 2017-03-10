@@ -1,2 +1,2 @@
 all:
-	clang main.ll read_data.c -o search
+	clang main.ll utils.c -o search
