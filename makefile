@@ -1,2 +1,2 @@
 all:
-	clang main.ll utils.c -o search
+	clang src/main.ll src/utils.c -o search
